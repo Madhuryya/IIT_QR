@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<style>
+  table,
+  td,
+  th {
+    border: 1px solid black;
+    color: black;
+  }
+</style>
+
+<body>
+
+  <h1 align="center"> All Equipments Details</h1>
+
+
+  <!-- <input id="qr-text" /> -->
+  <!-- <div id="qr-result"></div> -->
+  <!-- <button onclick="generateQRCode()" >click me</button> -->
+  <!-- <canvas id="qr-code"></canvas> -->
+  <div style="position: relative;"></div>
+  <table style="width:100%">
+    <tr style="height:50px">
+      <th style="width:20%">P.O.No With Date</th>
+      <td id="po"></td>
+    </tr>
+    <tr style="height: 50px;">
+      <th style="width:10%;">Description Of Item</th>
+      <td id="desc"></td>
+    </tr>
+    <tr style="height:50px">
+      <th style="width:8%">Qty</th>
+      <td id="qty"></td>
+    </tr>
+    <tr style="height:50px">
+      <th style="width: 12%">Price mentioned in the Asset Register</th>
+      <td id="price"></td>
+    </tr>
+    <tr style="height:50px">
+      <th style="width:12%">Location</th>
+      <td id="loc"></td>
+    </tr>
+    <tr style="height:50px">
+      <th style="width:20%">Dept. Stock Register No</th>
+      <td id="reg"></td>
+    </tr>
+    <tr style="height:50px">
+      <th style="width:11%">Status </th>
+      <td id="stat"></td>
+    </tr>
+    <tr style="height:50px">
+      <th style="width:11%">Remarks </th>
+      <td id="rem"></td>
+    </tr>
+
+  </table>
+  <table id="demo"></table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+ 
+
+  <script src="urls.js"></script>
+  <script src="urls.js"></script>
+  <script src="urls.js"></script>
+  <div style="position: absolute;bottom: 40%; left: 50%; transform: translateX(-50%);">
+    <button style="background-color: blue; color: white;padding: 10px 20px; font-size: 16px;">Audit</button>
+    <button style="background-color: blue; color: white;; padding: 10px 20px; font-size: 16px;">Done</button>
+  </div>
+</div>
+
+</body>
+
+</html>
